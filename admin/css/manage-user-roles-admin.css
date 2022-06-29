@@ -1,0 +1,83 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ #manage-user-roles_user table{
+   max-width: 767px;
+}
+#manage-user-roles_user .wrap-input-search{
+  display: inline-block;
+  width: 80%;
+  position: relative;
+  padding-left: 30px;
+}
+
+#manage-user-roles_user .wrap-input-search .search-result{
+   position: absolute;
+   padding: 0px 8px;
+   margin: 0;
+   background: #fff;
+   border: 1px solid #aaaaaa;
+   max-height: 180px;
+   overflow: hidden;
+   z-index: 2;
+}
+#manage-user-roles-username{
+  width: 100%;
+  max-width: 330px;
+}
+#manage-user-roles-username.processing{
+   background-image: url(../images/loading.gif);
+   background-repeat: no-repeat;
+   background-position: right center;
+   visibility: visible;
+}
+#manage-user-roles_user .search-result li{
+    margin-bottom: 0px;
+}
+#manage-user-roles_user .search-result li span{
+   /* padding: 4px 10px; */
+   display: block;
+   cursor: pointer;
+}
+#manage-user-roles_user .search-result li span:hover{
+   /* border: 1px solid #aaaaaa; */
+   background: #ffffff;   
+   color: #aaaaaa;
+}
+.user-role-manage-table{
+   width: 100%;
+   display: none;
+}
+.user-role-manage-table tr th{
+  padding: 20px 0;
+}
+#manage-user-roles_user table tbody td.site-name input[type="text"]{
+  width: 85%;
+  background: #fff;
+}
+#manage-user-roles_user table tbody td.site-url input[type="text"]{
+  width: 97%;
+  background: #fff;
+}
+#manage-user-roles_user.processing {
+  opacity: 0.5;
+}
+#manage-user-roles_save_user{
+  display: none;
+}
+#manage-user-roles_user #manage-user-roles_save_user.processing {
+  background-image: url(../images/button-loading.gif);
+   background-repeat: no-repeat;
+   background-position: right 5px center;
+   background-size: 15px;
+   width: 80px;
+}
+.user-role-manage-table .site-name-th{
+  position: relative;
+}
+.user-role-manage-table .site-name-th #check-uncheck-all-site{
+  position: absolute;
+  left: 0;
+  top: 46%;
+}
