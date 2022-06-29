@@ -19,7 +19,7 @@ To manage user role for all site at admin network.
 
 e.g.
 
-1. Upload `manage-user-roles.php` to the `/wp-content/plugins/` directory
+1. Upload `manage-user-roles` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Frequently Asked Questions ==
